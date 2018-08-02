@@ -1,0 +1,76 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: 'Indie Flower', cursive;
+	font-size: 80%;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 20px 0;
+	transition: all 2s;
+}
+
+button {
+	background: transparent;
+	border: 0;
+	font-family: 'Indie Flower', cursive;
+	font-size: inherit;
+	padding: 12px 20px;
+	letter-spacing: 1px;
+	transition: all 0.8s;
+	outline: none;
+	margin: auto -3px;
+}
+
+button:hover {
+	color: white;
+	background-color: steelblue;
+}
+
+span {
+	margin: auto;
+	width: 50px;
+	font-size: 160%;
+}
+.square {
+	width: 30%;
+	margin: 1.666%;
+	background-color: blue;
+	padding-bottom: 30%;
+	float: left;
+	border-radius: 50%;
+
+	/*For chrome*/
+	transition: background-color 0.6s;
+
+	/*For webkit and firefox*/
+	-webkit-transition: background-color 0.6s;
+	-moz-transition: background-color 0.6s;
+}
+
+.selected {
+	background-color: steelblue;
+}
+
+#container {
+
+	max-width: 40%;
+	margin: 15px auto;
+}
+
+#menu {
+	background-color: white;
+	text-align: center;
+	margin: 0;
+}
+
+#message {
+	display: inline-block;
+	width: 30%;
+}
